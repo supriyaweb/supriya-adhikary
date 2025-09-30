@@ -75,6 +75,13 @@
 	/* .container {
     max-width: 90% !important;
 	} */
+	.site-navbar-wrap.scroll-static {
+    	transform: none;
+	}
+	.site-navbar-wrap.scrolled {
+		position: fixed;
+    	top: 0;
+	}
 	.js-menu-toggle span.icon-menu {
     	font-size: 30px;
 	}
@@ -160,6 +167,12 @@
 	}
 	.section_padding {
     	padding: 70px 0;
+	}
+	.skills.section_padding {
+		padding-bottom: 60px;
+	}
+	.cta_sec.section_padding {
+		padding-top: 60px;
 	}
 	.timelines_sec {
     	padding-top: 70px;
@@ -252,7 +265,8 @@
     	margin-bottom: 66px;
 	}
 	.site-logo {
-		max-width: 120px !important;
+		max-width: 140px !important;
+		margin-left: 0px;
 	}
 	.homebg {
 		background-position: -75px center !important;
@@ -293,14 +307,17 @@
 		padding-left: 40px;
 	}
 	.about_img {
-        margin: 40px 0px 0px;
+        margin: 40px 0px 40px;
     }
-	.skills .sec_head {
+	.about_img img{
+  		margin-top: -40px;
+	}
+	/* .skills .sec_head {
         text-align: left;
-    }
-	.skills .sec_head h2::before {
+    } */
+	/* .skills .sec_head h2::before {
         right: inherit;
-    }
+    } */
 	.skills .sec_head + .row {
 		flex-direction: column-reverse;
 	}
@@ -561,7 +578,7 @@
 	.move a span {
 		margin-left: 0px;
 	}
-	.firefox .homebg, .safari .homebg {
+	.homebg, .firefox .homebg, .safari .homebg {
 		background-position: center top !important;
 		background-image: url('../images/homebg-small.jpg') !important;
 	}
@@ -673,9 +690,9 @@
 }
 
 @media (max-width: 480.5px){
-	.homebg {
+	/* .homebg {
         background-position: -110px center !important;
-    }
+    } */
 	.about_img img {
     	max-width: 200px;
 	}
@@ -690,7 +707,7 @@
         margin-left: 0px;
     }
 	.eduwrap {
-        padding: 60px 10px 50px;
+        padding: 50px 10px 50px;
     }
 	.row_service {
         gap: 25px;
@@ -724,9 +741,9 @@
 }
 
 @media (max-width: 420.5px){
-	.homebg {
+	/* .homebg {
         background-position: -120px center !important;
-    }
+    } */
 	.intro_data h2 {
         margin-bottom: 10px;
 		font-size: 32px;
@@ -748,11 +765,17 @@
 	.section_padding {
         padding: 60px 0;
     }
+	.skills.section_padding {
+		padding-bottom: 50px;
+	}
+	.cta_sec.section_padding {
+		padding-top: 50px;
+	}
 	.my_info, .about_me, .timelines_sec {
         padding-top: 60px;
     }
 	.about_img {
-        margin: 50px 0px 0px;
+        margin: 50px 0px 40px;
     }
 	.eduwrap {
         padding: 50px 10px 50px;
@@ -761,9 +784,9 @@
 		padding-bottom: 70px;
 	}
 	/*  */
-	.homebg {
+	/* .homebg {
         background-position: -135px center !important;
-    }
+    } */
 	.personal_text {
         padding: 40px 15px 25px;
     }
