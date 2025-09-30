@@ -219,8 +219,8 @@ button:focus {
   position: absolute;
   top: 50%;
   left: 50%;
-  /* margin-top: -13px; */
-  /* margin-left: -13px; */
+  margin-top: -15px;
+  margin-left: -15px;
   border-radius: 60px;
   animation: loader 0.8s linear infinite;
   -webkit-animation: loader 0.8s linear infinite;
