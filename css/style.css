@@ -508,6 +508,11 @@ iframe#previewFrame {
     max-width: 85vw;
   }
 }
+@media (min-width: 991.5px) {
+  .modal-dialog {
+    max-width: 65vw;
+  }
+}
 .web_model .modal-header {
   border: none;
   padding: 60px 40px 20px 70px;
@@ -2583,9 +2588,53 @@ ul.sol_info {
 
 
 
+/* ----------------------------new-------------------------------- */
 
 
+.slider.innerslider {
+  padding-bottom: 30px !important;
+}
+.slider.innerslider .homebg {
+  height: 230px;
+  min-height: 230px;
+}
 
+@media (max-width: 767.5px) {
+  .slider.innerslider {
+    padding-bottom: 13px !important;
+  }
+  .slider.innerslider .homebg {
+    height: 450px;
+    min-height: 450px;
+  }
+}
+/*  */
+.motion_sec .container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.motion_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.motion_box_video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.motion_box_video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.motion_box .web_model .modal-header {
+  padding: 8px 40px 10px 15px !important;
+}
+.motion_box .web_model .modal-header h2 {
+  font-size: 24px !important;
+}
 
 
 
